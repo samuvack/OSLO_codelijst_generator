@@ -5,9 +5,9 @@ Dit Python script zet deze excel lijst:
 ![image](https://github.com/samuvack/OSLO_codelijst_generator/assets/15192194/1fb9e1e3-066b-417d-86f3-58b7ad99af56)
 
 
-om naar:
+om naar een codelijst in turtle:
 
-<code>
+
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
@@ -33,4 +33,4 @@ skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
 skos:notation "bike" ;
 skos:prefLabel "fietser"@nl ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
-</code>
+
