@@ -8,7 +8,7 @@ Dit Python script zet deze excel lijst:
 om naar een codelijst in turtle:
 
 
-<code>
+```
   @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
   @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
   @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -34,4 +34,4 @@ om naar een codelijst in turtle:
   skos:prefLabel "fietser"@nl ;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-</code>
+```
